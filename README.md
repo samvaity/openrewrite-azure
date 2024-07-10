@@ -5,7 +5,7 @@ The migration recipe is defined to transition from `azure-core` to `azure-core-v
 ## Setup
 
 The migration recipe is defined in the `openrewrite-core` module as detailed below:
-You can find the recipe configuration in the `rewrite.yml` file [here]().
+You can find the recipe configuration in the `rewrite.yml` file [here](https://github.com/samvaity/openrewrite-azure/blob/main/openrewrite-core/src/main/resources/META-INF/rewrite/rewrite.yml).
 
 ```yaml
 ### Recipe Configuration for OpenRewrite
@@ -42,7 +42,7 @@ as follows:
     </dependencies>
 </plugin>
 ```
-The plugin configuration is defined in the `pom.xml` file [here]().
+The plugin configuration is defined in the `pom.xml` file [here](https://github.com/samvaity/openrewrite-azure/blob/main/openrewrite-sample/pom.xml#L22).
 
 ## Execution
 The `openrewrite-samples` module is configured to use the `openrewrite-maven-plugin` to run the OpenRewrite recipe on the sample project.
@@ -68,7 +68,11 @@ mvn rewrite:run
 
 ## Testing
 Refer to [Recipe Testing](https://docs.openrewrite.org/authoring-recipes/recipe-testing) for information on testing the recipe with unit tests.
-TODO
+
+## Openrewrite Reference
+- [Rewrite Recipe Starter](https://github.com/moderneinc/rewrite-recipe-starter):  Template for building your own recipe JARs
+- [Best practices for writing recipes](https://docs.openrewrite.org/recipes/recipes/openrewritebestpractices)
+- [Collaboration Proposal](https://github.com/openrewrite/collaboration-proposals/issues/new/choose): collaboration with OpenRewrite
 
 
 

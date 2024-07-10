@@ -39,3 +39,9 @@ out/
 .idea/**/gradle.xml
 .idea/**/libraries
 
+# Other Tooling #
+.classpath
+.project
+target
+.idea
+*.iml

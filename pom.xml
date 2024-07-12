@@ -11,5 +11,7 @@
     <modules>
         <module>openrewrite-core</module>
         <module>openrewrite-sample</module>
+        <module>azure-ai-translation-text-v1</module>
+        <module>azure-ai-translation-text-v2</module>
     </modules>
 </project>
